@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');/*Gabarito text font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*this is the Poppins text font*/
+div.container {
+	line-height: 1.3;
+}/*this is what contains all the code*/
+div.header {
+	background-color: #ffffff;
+	width: 100%;
+	height: 60px;
+	display: inline-block;
+    vertical-align: top;
+	padding: 0;
+	line-height: 1.3;
+	color: black;
+}/*the header with the nav bar and logo*/
+div.body {
+	background-color: #232323;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+}/*the main body and info for each of the pages*/
+div.top-body {
+	background-color: #000000;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+}/*this is a subsection so that I could change a certain aspect*/
+div.detailsbody {
+	padding: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+}/*another subsection*/
+div.infobody {
+	background-color: #585858;
+	display: inline-block;
+	padding: 0;
+	padding-bottom: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+	width: 100%;
+}/*this is the main information within the body*/
+div.intro {
+	background-image: url("img/blackback.jpg");
+	background-size: cover;
+	display: inline-block;
+	padding: 0;
+	padding-bottom: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+	width: 100%;
+}/*this is the intro on the details css page*/
+div.intro p {
+	width: 49%;
+	display: inline-block;
+	font-size: 25px;
+	padding-left: 5px;
+}/*editing the paragraph part of the intro*/
+div.intro a {
+	text-weight: bold;
+	color: white;
+	font-family: "Poppins";
+	text-decoration: underline;
+	text-decoration-color: #7fcdee;
+}/*editing the links*/
+div.intro a:hover {
+	text-decoration-color: orange;
+}/*when the link is hovered over*/
+div.intro img {
+	width: 35%;
+	display: inline-block;
+	float: right;
+	padding-right: 40px;
+}/*the image editing*/
+div.infobody2 {
+	background-color: #3D3D3D;
+	display: inline-block;
+	padding: 0px;
+	padding-bottom: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+	width: 100%;
+}/*the information in the second body*/
+div.footer {
+	background-color: #040027;
+	display: inline-block;
+	width: 100%;
+	padding-top: 0;
+	padding: 0;
+	line-height: 1.3;
+	color: #F0F0F0;
+}/*changing the design of the footer*/
+div.footer p {
+	background-color: #040027;
+	display: inline-block;
+	width: 100%;
+	padding-top: 0;
+	padding: 0;
+	line-height: 1.4;
+	color: #F0F0F0;	
+	font-size: 9px;
+}/*paragraph aspect of the footer*/
+div.footer h1 {
+	font-size: 15px;
+	font-family: "Gabarito"
+}/*the heading in the footer*/
+.button {
+	background-color: #FFFFFF;
+	border: #f7931e;
+	color: black;
+	padding: 0 40px 0 0;
+	text-align: center;
+	display: inline-block;
+	font-size: 24px;
+	margin: 10px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	vertical-align: top;
+	float: right;
+}/*this is the button that takes you between pages*/
+.button:hover {
+	color: #f7931e;
+}/*this changes the look of the button when it is hovered over*/
+ul {
+	padding-left: 10px;
+	padding-right: 20px;
+}/*designing the unordered list*/
+ul p {
+	padding-right: 20px;
+}/*designing the text within the unordered list*/
+div.button {
+	background-color: #FFFFFF;
+	border: #f7931e;
+	color: black;
+	padding: 0 40px 0 0;
+	text-align: center;
+	display: inline-block;
+	font-size: 24px;
+	margin: 10px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	vertical-align: top;
+	float: right;
+}/*designing the buttons*/
+p {
+	font-family: 'Poppins';
+	
+}/*all the paragraph information*/
+div.row p {
+	font-size: 20px;
+	font-family: "Poppins";
+	text-decoration: none;
+	font-weight: normal;
+	text-height: 1.3;
+	padding-left: 5px;
+	padding-top: 2px;
+}/*row paragraph*/
+div.row h2 {
+	font-size: 30px;
+	font-height: 3;
+	font-weight: bold;
+	font-family: "Gabarito";
+	padding-left: 5px;
+	padding-top: 2px;
+	
+}/*row headings*/
+div.row2 h2 {
+	font-size: 30px;
+	font-height: 3;
+	font-weight: bold;
+	font-family: "Gabarito";
+	padding-left: 5px;
+	padding-top: 2px;
+	
+}/*row2 headings*/
+div.button:hover {
+	color: #f7931e;
+}/*when you hover over the button it changes*/
+div.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}/*after the row it inserts*/
+div.column {
+	float: left;
+	width: 50%;
+}/*the columns design*/
+div.column2 {
+	float: left;
+	width: 50%;
+}/*the second colims design*/
+div.video {
+	position: relative;
+}/*the desgin and spot for the video to be*/
+div.rlvideo, div.fadeonvideo {
+	width: 100%;
+	height: auto;
+	display: block;
+	postion: absolute;
+}/*the video and the image that is on the video*/
+div.rlvideo {
+	z-index: -1;
+	position: relative;
+}/*the video*/
+img.fadeonvideo {
+	position: absolute;
+	top: 68px;
+	left: 7px;
+	width: 100%;
+	z-index: 1;
+}/*the image that is on the video*/
+div.row img {
+	width: 49%;
+	padding: 0;
+}/*the images within the rows design*/
+div.top-body h1 {	
+	position: absolute;
+	top: 300px;
+	padding-left: 70px;
+	z-index: 2;
+	text-weight: bold;
+	color: white;
+	font-size: 55px;
+	font-family: "Gabarito";
+	text-decoration: underline;
+	text-decoration-color: #7fcdee;
+}/*the top body of the home.html pages image design and placing*/
+div.top-body a {	
+	text-weight: bold;
+	color: white;
+	font-family: "Poppins";
+	text-decoration: underline;
+	text-decoration-color: #7fcdee;
+}/*the links in the top body*/
+div.top-body a:hover {	
+	text-decoration-color: orange;
+}/*when the links after hovered over*/
+div.top-body p {
+	position: absolute;
+	top: 390px;
+	padding-left: 70px;
+	z-index: 2;
+	color: white;
+	font-size: 20px;
+}/*the text in the top body*/
+h1 {
+	font-family: "Gabarito";
+}/*all the h1's font*/
+div.menu-icon {
+	cursor: pointer;
+	display: none;
+}/*the burger menu designa nd placing*/
+div.menu {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+}/*the burger menu designa nd placing*/
+div.infobody2 img {
+	width: 3%;
+	text-align: center;
+	padding: 20px;
+}/*the infobody2's images placing*/
+div.infobody2 {
+	text-align: center;
+	font-size: 38px;
+	font-family: "";
+}/*all the desing for infobody2*/
+div.infobody2 h3 {
+	text-align: center;
+	font-size: 38px;
+	font-family: "Gabarito";
+}/*the heading in infobody2*/
+div.menu a {
+	color: #fff;
+	text-decoration: none;
+	margin: 20px;
+	display: block;
+	font-size: 40px;
+	font-family: sans-serif;
+}/*the burger menus links*/
+div.detailsbody a {
+	color: #F0F0F0;
+	text-decoration: underline;
+	text-decoration-color: cornflowerblue;
+}/*the detailbody links desgin*/
+div.detailsbody a:hover {
+	animation-duration: 0.1s;
+	color: #f7931e;
+	text-decoration-color: orange;
+}/*the links when they are hovered over*/
+div.history a {
+	color: #F0F0F0;
+	text-decoration: underline;
+	text-decoration-color: cornflowerblue;
+}/*the links in the history section*/
+div.history a:hover {
+	animation-duration: 0.1s;
+	color: #F0F0F0;
+	text-decoration-color: orange;
+}/*the links when they are hovered over*/
+span.dimage img {
+  	width: 300px;
+  	vertical-align: middle;
+  	margin: 10px 0px 10px 0px;
+  	text-align: center;
+	object-fit: cover;
+	border-radius: 4px;
+}/*this is the iamges design*/
+span.hr {
+	display: none;
+}/*the lines that are underneath each tip*/
+div.detailsbody ul li {
+	list-style: none;
+	line-height: 1.3;
+}/*the list items within the list layout*/
+div.history ul li {
+	list-style: none;
+	line-height: 1.3;
+}/*the list items within the list layou*/
+div.history {
+	display: inline-block;
+	line-height: 1.3;
+}/*the design for the history information*/
+div.history img {
+	width: 100%;
+}/*the history SARPBC img design*/
+div.history p {
+	line-height: 1.5;
+}/*the history divs text*/
+div.bodyinfo p {
+	text-weight: bold;
+	text-align: center;
+	
+}/*more text in the infobody*/
+div.column2 {
+	color: #F0F0F0;
+}/*design for column*/
+div.column {
+	color: #F0F0F0;
+}/*design for colum*/
+div.row2 p {
+	font-size: 20px;
+	font-family: "Poppins";
+	text-decoration: none;
+	font-weight: normal;
+	text-height: 1.3;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-right: 4px;
+}/*text design*/
+div.column {
+	font-size: 15px;
+}/*column design*/
+h1, h2, h3 {
+	font-family: "Gabarito";
+}/*heading fonts*/
+#displayText {
+	display: none;
+}/*this is what reveals the reference list*/ 
+#showButton {
+	color: white;
+	background-color: #040027;
+	text-decoration: none;
+	border: none;
+	cursor: crosshair;
+}
+@media screen and (max-width: 768px){
+	div.column2 {
+		width: 100%;
+		float: left;
+	}/*the columns stack*/
+	div.column {
+		width: 100%;
+		float: left;
+	}/*the columns stack*/
+	div.menu-icon {
+		display: inline-block;
+		text-align: center;
+		padding-top: 12px;
+		padding-right: 20px;
+		float: right;
+	}/*the burger menu apears*/
+	span.nav {
+		display: none;
+	}/*the nav buttons dissapear*/
+	img.fadeonvideo {
+  		position: absolute;
+  		top: 68px;
+  		left: 8px;
+  		width: 100%;
+  		z-index: 1;
+	}/*the image resizes to fit the new screen size*/
+	div.top-body p {
+		position: absolute;
+		top: 265px;
+		padding-left: 70px;
+		z-index: 2;
+		color: white;
+		font-size: 20px;
+		font-size: 75%;
+	}/*text changes*/
+	div.top-body h1 {	
+		position: absolute;
+		top: 200px;
+		padding-left: 70px;
+		z-index: 2;
+		color: white;
+		font-family: "Poppins";
+		text-decoration: underline;
+		text-decoration-color: #7fcdee;
+		font-size: 40px;
+		
+	}/*text changes*/
+	div.intro p {
+		font-size: 10px;
+	}/*text changes*/
+	div.intro img {
+		width: 40%;
+	}/*the image design and location changes*/
+	span.hr {
+		display: block;
+	}/*there are added lines that seperate the tips*/
+	div.infobody2 img {
+		width: 8%;
+	}/*the image changes side to fit within the screens proportions*/
+}/*these are the changes that are made when it is switched from desktop to mobile mode*/
